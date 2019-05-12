@@ -1,0 +1,106 @@
+.upDivFourth{
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    .upDivFourthInside{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 240px;
+        height: 80px;
+        background: orange;
+        border-radius: 50px;
+        margin-right: 10px;
+    }
+    .upDivFourthLogo{
+        width: 85px;
+        border-radius: 10px;
+    }
+    .logo{
+        color: white;
+    }
+    .inputPr{
+        display: inline-block;
+        position: absolute;
+        margin: 0px;
+        top: 50px;
+        left: 34%;
+        color: #5d5d5d;
+    }
+    .inputText{
+        background: white;
+        font-size: 22px;
+        margin-top: 20px;
+        width: 35%;
+        height: 50px;
+        border-radius: 10px;
+        outline: none;
+        border-color: blue;
+    }
+    .upDivFourthDelete{
+        margin: 0px 10px;
+        width: 16%;
+        height: 80px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+}
+.middleDivFourth{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    // width: 71%;
+    margin: 50px auto;
+    .numbers{
+        display: flex;
+        align-items: center;
+        padding: 3px;
+        cursor: pointer;
+        .numbersImg{
+            width: 80px;
+            height: 80px;
+        }
+        .numbersImgZero{
+            width: 250px;
+            height: 80px;
+        }
+    }
+    .allSimvols{
+        width: 70px;
+        height: 70px;
+        background: #5572d9;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3px;
+        margin: 3px;
+        cursor: pointer;
+        .allSimvolsInside{
+            font-size: 30px;
+            color: white;
+            font-weight: 600;
+        }
+    }
+}
+.bottomDivFourth{
+    position: absolute;
+    bottom: 10px;
+    width: 99%;
+
+    .bottomDivFourthImg{
+        cursor: pointer;
+        height: 80px;
+    }
+    #btnBackId{
+        margin-left: 250px;
+    }
+    #btnHomeId{
+        margin-left: 210px;
+    }
+    #btnNextId{
+        margin-left: 210px;
+    }
+}
